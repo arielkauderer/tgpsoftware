@@ -1,11 +1,12 @@
 import './App.css';
 import React from 'react';
+import Home from './components/home/index.js';
 
 function App() {
   return (
-    <div className="App">
-      <h1>HELLO TPG!</h1>
-    </div>
+    <>
+      <Home />
+    </>
   );
 }
 
